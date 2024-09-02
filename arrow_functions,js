@@ -1,0 +1,32 @@
+function abhi() {
+    let username= "Abhishek Singh"
+    console.log(username);
+}
+abhi()
+
+/* const chai =function () {
+let username ="Abhishek Singh"
+console.log(this.username);
+
+}
+ chai() */
+
+ const chai = () => {
+    let username ="Abhishek Singh"
+    console.log(username);
+    
+    }
+     chai()
+
+     const addtwo = (num1 , num2) => num1+ num2
+     console.log(addtwo(3,4))
+
+     function abhishek(){
+        console.log(`DB connected`)
+     }
+     abhishek();
+
+    (function abhishek(){
+        console.log(`DB connected`);
+     })();
+     
